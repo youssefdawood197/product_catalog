@@ -1,0 +1,50 @@
+name: product_catalog
+description: Flutter Product Catalog Mini App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management (Cubit)
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.5
+
+  # Routing
+  go_router: ^14.2.0
+
+  # Dependency Injection
+  get_it: ^7.7.0
+
+  # HTTP client
+  dio: ^5.5.0+1
+
+  # Responsive UI
+  flutter_screenutil: ^5.9.0
+
+  # Internationalization (Flutter built‑in localizations)
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+  # Caching simple preferences (for language toggle etc.)
+  shared_preferences: ^2.3.2
+
+  # Image caching
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  generate: true

@@ -1,0 +1,13 @@
+{
+  "appTitle": "Product Catalog",
+  "skip": "Skip",
+  "next": "Next",
+  "getStarted": "Get Started",
+  "products": "Products",
+  "price": "Price",
+  "details": "Details",
+  "retry": "Retry",
+  "loading": "Loading...",
+  "somethingWentWrong": "Something went wrong",
+  "langToggle": "العربية"
+}

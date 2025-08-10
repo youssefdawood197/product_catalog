@@ -1,0 +1,13 @@
+{
+  "appTitle": "كتالوج المنتجات",
+  "skip": "تخطي",
+  "next": "التالي",
+  "getStarted": "ابدأ",
+  "products": "المنتجات",
+  "price": "السعر",
+  "details": "التفاصيل",
+  "retry": "إعادة المحاولة",
+  "loading": "جارٍ التحميل...",
+  "somethingWentWrong": "حدث خطأ ما",
+  "langToggle": "English"
+}
