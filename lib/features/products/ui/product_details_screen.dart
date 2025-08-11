@@ -66,7 +66,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                   SizedBox(height: 12.h),
                   Text(p.description),
                   SizedBox(height: 16.h),
-                  Text('${loc.price}: ${p.price.toStringAsFixed(2)} ${loc.EGP}', style: Theme.of(context).textTheme.titleMedium),
+                  Text('${loc.price}: ${p.price.toStringAsFixed(2)} ${loc.egp}', style: Theme.of(context).textTheme.titleMedium),
                 ],
               ),
             );

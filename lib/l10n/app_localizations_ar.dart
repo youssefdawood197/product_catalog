@@ -42,5 +42,5 @@ class AppLocalizationsAr extends AppLocalizations {
   String get langToggle => 'English';
 
   @override
-  String get EGP => 'جنيه';
+  String get egp => 'جنيه';
 }
