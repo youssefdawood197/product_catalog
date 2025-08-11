@@ -5,7 +5,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:product_catalog/features/products/logic/cubit/product_cubit.dart';
 import 'package:product_catalog/l10n/app_localizations.dart';
 import 'package:go_router/go_router.dart';
-import 'package:product_catalog/main.dart';
 class ProductDetailsScreen extends StatefulWidget {
   final String productId;
   const ProductDetailsScreen({super.key, required this.productId});
@@ -67,7 +66,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                   SizedBox(height: 12.h),
                   Text(p.description),
                   SizedBox(height: 16.h),
-                  Text('${loc.price}: ${p.price.toStringAsFixed(2)}', style: Theme.of(context).textTheme.titleMedium),
+                  Text('${loc.price}: ${p.price.toStringAsFixed(2)} ${loc.EGP}', style: Theme.of(context).textTheme.titleMedium),
                 ],
               ),
             );

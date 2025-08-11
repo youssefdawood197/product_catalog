@@ -9,5 +9,7 @@
   "retry": "إعادة المحاولة",
   "loading": "جارٍ التحميل...",
   "somethingWentWrong": "حدث خطأ ما",
-  "langToggle": "English"
+  "langToggle": "English",
+  "EGP" : "جنيه"
+
 }

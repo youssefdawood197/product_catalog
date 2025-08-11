@@ -158,6 +158,8 @@ abstract class AppLocalizations {
   /// **'Something went wrong'**
   String get somethingWentWrong;
 
+  String get EGP;
+
   /// No description provided for @langToggle.
   ///
   /// In en, this message translates to:

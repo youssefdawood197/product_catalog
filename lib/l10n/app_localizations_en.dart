@@ -40,4 +40,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get langToggle => 'العربية';
+
+  @override
+  String get EGP => 'EGP';
 }

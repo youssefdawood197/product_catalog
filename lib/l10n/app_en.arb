@@ -9,5 +9,6 @@
   "retry": "Retry",
   "loading": "Loading...",
   "somethingWentWrong": "Something went wrong",
-  "langToggle": "العربية"
+  "langToggle": "العربية",
+  "EGP" : "EGP"
 }

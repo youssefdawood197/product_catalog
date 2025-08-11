@@ -76,7 +76,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                           SizedBox(height: 8.h),
                           Text(p.title, maxLines: 2, overflow: TextOverflow.ellipsis),
                           SizedBox(height: 4.h),
-                          Text("${p.price.toStringAsFixed(2)} EGP"),
+                          Text("${p.price.toStringAsFixed(2)} ${loc.EGP}"),
                         ],
                       ),
                     ),
